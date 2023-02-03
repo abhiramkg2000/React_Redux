@@ -1,0 +1,36 @@
+$button-back-color:#00a0dc;
+$button-color:#fff;
+$button-hover-color:#4c5fb6;
+
+@mixin position-center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.App{
+    @include position-center();
+    text-align: center;
+    h1{
+        color: $button-back-color;
+    }
+    button{
+        color: $button-color;
+        background-color: $button-back-color;
+        border: none;
+        font-weight: bold;
+        margin:10px;
+        border-radius: 20px;
+        padding: 5px 10px;
+        &:hover{
+            background-color: $button-hover-color;
+        }
+    }
+    .toggle{
+        background-color: #4c5fb6;
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,22 @@
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.App h1 {
+  color: #00a0dc;
+}
+.App button {
+  color: #fff;
+  background-color: #00a0dc;
+  border: none;
+  font-weight: bold;
+  margin: 0 10px;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.App button:hover {
+  background-color: #4c5fb6;
+}/*# sourceMappingURL=App.css.map */
